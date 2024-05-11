@@ -3,11 +3,11 @@ import 'package:repos/telas/tela_inicial.dart';
 
 
 void main() {
-  runApp(const MyApp());
+  runApp(const gggg());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class gggg extends StatelessWidget {
+  const gggg({super.key});
 
   
   @override

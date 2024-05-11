@@ -1,14 +1,15 @@
 
-import 'package:flutter/widgets.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+
 import 'package:flutter/material.dart';
 import 'package:repos/constans.dart';
-import 'package:repos/telas/entrar.dart';
+
 import 'package:repos/telas/login.dart';
-import 'package:repos/telas/tela_inicial.dart';
+
 import 'package:repos/widgets/app.title.dart';
 import 'package:repos/widgets/app_text.dart';
 import 'package:repos/widgets/input_text.dart';
+
 
 class criarconta extends StatelessWidget {
   @override
@@ -19,7 +20,7 @@ class criarconta extends StatelessWidget {
         title: Padding(
           padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
           child: Center(
-            child: Container(
+            child: SizedBox(
               width:270,
               height: 300, 
               child: Image.asset('assets/imagens/logoentrar.png'),),

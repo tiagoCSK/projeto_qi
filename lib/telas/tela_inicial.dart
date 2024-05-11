@@ -2,15 +2,20 @@
 
 
 
+
+
+import 'package:repos/constans.dart';
+
 import 'login.dart';
 import 'package:repos/telas/agenda_consulta.dart';
-import 'package:repos/telas/entrar.dart';
+
 import 'package:repos/telas/hospitais.dart';
 import 'package:repos/telas/sobre_o_sus.dart';
 
 import 'emergencia.dart';
 import 'package:flutter/material.dart';
 import 'criarconta.dart';
+
 
 class tela extends StatelessWidget {
   const tela({super.key});
@@ -26,15 +31,13 @@ class tela extends StatelessWidget {
     child: Column(
      crossAxisAlignment: CrossAxisAlignment.start, 
     children: [
-      Container(child: const Text('dasd'),
-      
-      width: 70,
-      height: 70,),
+      const SizedBox(width: 70,
+      height: 70,child: Text('dasd'),),
       Row(children: [
-        Container(
+        const SizedBox(
           width: 150,
           height: 70,
-          child: const Row( children: [  Icon(Icons.account_circle,
+          child: Row( children: [  Icon(Icons.account_circle,
           size: 50,
           ),
       Text('bem vindo',
@@ -75,19 +78,16 @@ class tela extends StatelessWidget {
       
     ),),
      
-       Container(child: Center(
-         child: const Text('categorias',
+       const SizedBox(width: 500.0,
+    height: 70.0,child: Center(
+         child: Text('categorias',
          style: TextStyle(
           fontSize: 30,
           fontWeight: FontWeight.bold,
          ),),
-       ),
-       
-            
-    width: 500.0,
-    height: 70.0,),
+       ),),
     
-    Container(
+    SizedBox(
     width: 500.0,
     height: 80.0,
     
@@ -130,10 +130,10 @@ class tela extends StatelessWidget {
     Row(
       children: [
         Column(
-          children: [Container(
+          children: [const SizedBox(
           width: 100,
-          color: Color.fromRGBO(255, 255, 255, 1),
-             child: const Text('Agendar\nConsulta',
+          
+             child: Text('Agendar\nConsulta',
              style: TextStyle(
                fontSize: 17,fontWeight: FontWeight.bold),),
            ),
@@ -165,10 +165,10 @@ class tela extends StatelessWidget {
         )],)
       ],
     ),
-    Container(
+    SizedBox(
     width: 500.0,
     height: 90.0,
-    color: const Color.fromARGB(255, 190, 26, 26),
+    
       child: Row (
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
@@ -177,11 +177,7 @@ class tela extends StatelessWidget {
         backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromARGB(255, 57, 133, 196);},
         ),),
       onPressed: (){Navigator.push(context, MaterialPageRoute(
-            builder: (context){return agenda_consulta();}));}, child: const Icon(
-              color: Colors.black,
-              Icons.health_and_safety,
-              size: 60,
-          )),
+            builder: (context){return agenda_consulta();}));}, child: Image.asset("assets/imagens/cruz.png", height: 61,),),
      ElevatedButton(
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromARGB(255, 57, 133, 196);},
@@ -189,63 +185,101 @@ class tela extends StatelessWidget {
         onPressed: (){
       Navigator.push(context, MaterialPageRoute(
             builder: (context){return hospitais();}));
-     }, child:const Icon(Icons.domain_add,
+     }, child:const Icon(Icons.chat,
      size: 60,
      color: Colors.black,
           )),
           ElevatedButton(
             style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromARGB(255, 57, 133, 196);},
+        backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return appcolors.azul;},
         ),),onPressed: (){
           Navigator.push(context, MaterialPageRoute(
             builder: (context){return login();}));}, child: const Icon(
               color: Colors.black,
-              Icons.emergency,
+              Icons.info,
               size: 60,),)
     ] 
     )),
-    Container(width: 500.0,
-    height: 332.0,
-   ),
-    Container(
+     const Row(
+              children: [ SizedBox(width: 52,),
+                SizedBox( width: 70, 
+                  child: Text('sobre o SUS',style: TextStyle(fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            )),
+                ),
+                SizedBox(width: 58,),
+                 SizedBox(  width: 90,
+                  child: Text(    'Fale com o SUS',style: TextStyle(fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            )),
+                ), SizedBox(width: 45,),
+                SizedBox( width: 100,
+                  child: Text('Termos de Utilização',style: TextStyle(fontWeight: FontWeight.bold,
+                            fontSize: 20, 
+                            )),
+                )
+              ],
+                
+              ),
+    SizedBox(width: 500.0,
+    height: 274.3,
+    child: Image.asset('assets/imagens/imagen.inicio.png'),),
+   
+    Container( 
     width: 500.0,
     height: 138.0,
-    color: const Color.fromARGB(255, 57, 133, 196),
-      child: Row (
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-     ElevatedButton(
-      style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return Color.fromRGBO(255, 255, 255, 1);},
-        ),),
-      onPressed: (){Navigator.push(context, MaterialPageRoute(
-            builder: (context){return agenda_consulta();}));}, child: const Icon(
-              color: Colors.black,
-              Icons.home,
-              size: 60,
-          )),
-     ElevatedButton(
-      style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return Color.fromRGBO(255, 255, 255, 1);},
-        ),),
-        onPressed: (){
-      Navigator.push(context, MaterialPageRoute(
-            builder: (context){return hospitais();}));
-     }, child:const Icon(Icons.event_note,
-     size: 60,
-     color: Colors.black,
-          )),
-          ElevatedButton(
-            style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return Color.fromRGBO(255, 255, 255, 1);},
-        ),),onPressed: (){
+    color: appcolors.azul,
+      child: Column(  
+        children: [ const SizedBox(height: 25,),
+          Row (
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+               ElevatedButton(
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return ;},
+            ),),
+          onPressed: (){Navigator.push(context, MaterialPageRoute(
+                builder: (context){return const tela();}));}, child: const Icon(
+                  color: Colors.black,
+                  Icons.home,
+                  size: 60,
+              )),
+               ElevatedButton(
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return ;},
+            ),),
+            onPressed: (){
           Navigator.push(context, MaterialPageRoute(
-            builder: (context){return sobre_o_sus();}));}, child: const Icon(
-              color: Colors.black,
-              Icons.person,
-              size: 60,),)
-    ] 
-    )),
+                builder: (context){return login();}));
+               }, child:const Icon(Icons.event_note,
+               size: 60,
+               color: Colors.black,
+              )),
+              ElevatedButton(
+                style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return ;},
+            ),),onPressed: (){
+              Navigator.push(context, MaterialPageRoute(
+                builder: (context){return sobre_o_sus();}));}, child: const Icon(
+                  color: Colors.black,
+                  Icons.person,
+                  size: 60,),)
+              ] 
+              ),
+              const Row( mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(    'Inicio',style: TextStyle(fontWeight: FontWeight.bold,
+          fontSize: 20,
+          )), Text(    'Agenda',style: TextStyle(fontWeight: FontWeight.bold,
+          fontSize: 20,
+          )), Text('Perfil',style: TextStyle(fontWeight: FontWeight.bold,
+          fontSize: 20, 
+          ))
+              ],
+                
+              )
+        ],
+      )),
     
        ])); 
    
@@ -254,7 +288,6 @@ class tela extends StatelessWidget {
 
 
   }
-  
 }
 
 class Tex {

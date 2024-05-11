@@ -1,7 +1,6 @@
 
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/widgets.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+
 import 'package:flutter/material.dart';
 import 'package:repos/constans.dart';
 import 'package:repos/telas/criarconta.dart';
@@ -9,6 +8,7 @@ import 'package:repos/telas/tela_inicial.dart';
 import 'package:repos/widgets/app.title.dart';
 import 'package:repos/widgets/app_text.dart';
 import 'package:repos/widgets/input_text.dart';
+
 class login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class login extends StatelessWidget {
         title: Padding(
           padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
           child: Center(
-            child: Container(
+            child: SizedBox(
               width:270,
               height: 300, 
               child: Image.asset('assets/imagens/logoentrar.png'),),
@@ -56,10 +56,10 @@ class login extends StatelessWidget {
                   child: AppText('esqueceu sua senha?', textAlign: TextAlign.end,
                   color: Colors.white.withOpacity(0.5),
                   ),
-                ),SizedBox(height: 20,),
+                ),const SizedBox(height: 20,),
                 SizedBox(
                   width: double.infinity,
-                  child: TextButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context){return tela();}),);},
+                  child: TextButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context){return const tela();}),);},
                   style: TextButton.styleFrom(
                     textStyle: const TextStyle(fontSize: 16),
                     padding: const EdgeInsets.symmetric(
@@ -70,12 +70,12 @@ class login extends StatelessWidget {
                   ),
                    child: const Text('entrar'),),
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     AppText('Não em uma conta?'),
-                    SizedBox(width: 6,),
+                    const SizedBox(width: 6,),
                     GestureDetector(onTap: (){
                       Navigator.of(context).push(MaterialPageRoute(builder: (context) {
                         return criarconta();
