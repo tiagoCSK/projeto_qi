@@ -1,6 +1,8 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 import 'package:repos/constans.dart';
 
 
@@ -20,13 +22,13 @@ class _RadioExampleState extends State<RadioExample> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: const Color.fromRGBO(247, 246, 244, 1),
+    return Container(color: Color.fromRGBO(247, 246, 244, 1),
       child: Column(
         children: <Widget>[
-          ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
+          ListTile(contentPadding: EdgeInsets.all(1),iconColor: Colors.black,
             title: const Text('Hospital Padre Jeremias 2,1 KM',
             style: TextStyle(fontSize: 17),),
-            leading: Radio<SingingCharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
+            leading: Radio<SingingCharacter>(activeColor: Color.fromRGBO(10, 10, 10, 1),
             
               value: SingingCharacter.Padre,
               groupValue: _character,
@@ -37,10 +39,10 @@ class _RadioExampleState extends State<RadioExample> {
               },
             ),
           ),
-          ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
+          ListTile(contentPadding: EdgeInsets.all(1),iconColor: Colors.black,
             title: const Text('Hospital Dom João Becker 6,5KM',
             style: TextStyle(fontSize: 17),),
-            leading: Radio<SingingCharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
+            leading: Radio<SingingCharacter>(activeColor: Color.fromRGBO(10, 10, 10, 1),
             
               value: SingingCharacter.Becker,
               groupValue: _character,
@@ -53,7 +55,7 @@ class _RadioExampleState extends State<RadioExample> {
           ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
             title: const Text('Hospital Cristo Redentor 11,3KM',
             style: TextStyle(fontSize: 17),),
-            leading: Radio<SingingCharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
+            leading: Radio<SingingCharacter>(activeColor: Color.fromRGBO(10, 10, 10, 1),
             
               value: SingingCharacter.Cristo,
               groupValue: _character,

@@ -1,5 +1,5 @@
 
-
+import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
 import 'package:repos/constans.dart';
@@ -20,7 +20,7 @@ class criarconta extends StatelessWidget {
         title: Padding(
           padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
           child: Center(
-            child: SizedBox(
+            child: Container(
               width:270,
               height: 300, 
               child: Image.asset('assets/imagens/logoentrar.png'),),
