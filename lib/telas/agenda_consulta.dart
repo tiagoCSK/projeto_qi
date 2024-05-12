@@ -620,7 +620,7 @@ class agenda_consulta extends StatelessWidget {
             backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromRGBO(255, 255, 255, 1);},
             ),),
           onPressed: (){Navigator.push(context, MaterialPageRoute(
-                builder: (context){return const MyApp();}));}, child: const Text('Agendar',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold, color: Color(0xFF000000)),)),
+                builder: (context){return agendamentos();}));}, child: const Text('Agendar',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold, color: Color(0xFF000000)),)),
               ] 
               ), const SizedBox(height: 10,)
         ],

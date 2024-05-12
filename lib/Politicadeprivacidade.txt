@@ -1,0 +1,296 @@
+1.Quais informações estão presentes neste documento?
+
+Nesta Política de Privacidade, o usuário do serviço Meu SUS Digital encontrará informações sobre: o funcionamento do serviço e as regras aplicáveis a ele; o arcabouço legal relacionado à prestação do serviço; as responsabilidades do usuário ao utilizar o serviço; as responsabilidades da administração pública ao prover o serviço; informações para contato, caso exista alguma dúvida ou seja necessário atualizar informações; e o foro responsável por eventuais reclamações caso questões desta Política tenham sido violadas. Além disso, na Política de Privacidade, o usuário do serviço Meu SUS Digital encontrará informações sobre: qual o tratamento dos dados pessoais realizados, de forma automatizada ou não, e a sua finalidade; os dados pessoais dos usuários necessários para a prestação do serviço; a forma como eles são coletados; se há o compartilhamento de dados com terceiros; e quais as medidas de segurança implementadas para proteger os dados.
+
+2.Aceitação da Política de Privacidade
+
+Ao utilizar os serviços, o usuário confirma que leu e compreendeu as Políticas aplicáveis ao serviço Meu SUS Digital e concorda em ficar vinculado a eles.
+
+3.Definições
+
+Para melhor compreensão deste documento, nesta Política de Privacidade, consideram-se:
+
+  1.Agentes de tratamento: o controlador e o operador.
+
+  2.Consentimento: Manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus   3.dados pessoais para uma finalidade determinada.
+
+  4.Dado pessoal: informação relacionada a pessoa natural identificada ou identificável.
+
+Dado pessoal sensível: Dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.
+
+  5.Operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador.
+
+  6.Controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais.
+
+  7.Encarregado de Dados: pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).
+
+  8.Titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento.
+
+  9.Tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração.
+
+  10.Uso compartilhado de dados: comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entes privados.
+
+  11.Lei Geral de Proteção de Dados: Lei Federal n. 13.709, de 14 de agosto de 2018, que dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.
+
+  12.Usuários (ou "Usuário", quando individualmente considerado): todas as pessoas naturais que utilizarem o serviço Conecte SUS.
+
+  13.ANPD: autoridade nacional de proteção de dados pessoais é órgão da administração pública responsável por zelar, implementar e fiscalizar o cumprimento desta Lei em todo o território nacional.
+
+4.Quais são as leis e normativos aplicáveis a esse serviço?
+
+   *Lei nº 12.527, de 18 de novembro de 2011: Lei de Acesso à Informação – Regula o acesso a informações previsto na Constituição Federal.
+
+   *Lei nº 13.460, de 26 de junho de 2017: Dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública.
+
+   *Lei nº 13.709, de 14 de agosto de 2018: Dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.
+
+    *Decreto nº 7.724, de 16 de maio de 2012: Regulamenta a Lei no 12.527, de 18 de novembro de 2011 (Lei de Acesso à Informação), que dispõe sobre o acesso a informações previsto na Constituição.
+
+    *Lei n. 13.853, de 8 de julho de 2019, que altera a Lei nº 13.709, de 14 de agosto de 2018, para dispor sobre a proteção de dados pessoais e para criar a Autoridade Nacional de Proteção de Dados; e dá outras providências
+
+    *Decreto nº 10.046, de 09 de outubro de 2019: Dispõe sobre a governança no compartilhamento de dados no âmbito da administração pública federal e institui o Cadastro Base do Cidadão e o Comitê Central de Governança de Dados.
+
+    *Decreto nº 9.637, de 26 de dezembro de 2018: Institui a Política Nacional de Segurança da Informação, dispõe sobre a governança da segurança da informação, e altera o Decreto nº 2.295, de 4 de agosto de 1997, que regulamenta o disposto no art. 24, caput , inciso IX, da Lei nº 8.666, de 21 de junho de 1993, e dispõe sobre a dispensa de licitação nos casos que possam comprometer a segurança nacional.
+
+    *Portaria GM/MS nº 69, de 14 de Janeiro de 2021: Institui a obrigatoriedade de registro de aplicação de vacinas contra a Covid-19 nos sistemas de informação do Ministério da Saúde.
+
+    *Portaria GM/MS nº 1.434, de 28 de maio de 2020: Institui o Programa Conecte SUS e altera a Portaria de Consolidação nº 1/GM/MS, de 28 de setembro de 2017, para instituir a Rede Nacional de Dados em Saúde e dispor sobre a adoção de padrões de interoperabilidade em saúde.
+
+    *Portaria GM/MS nº 1.792, de 17 de julho de 2020: Altera a Portaria nº 356/GM/MS, de 11 de março de 2020, para dispor sobre a obrigatoriedade de notificação ao Ministério da Saúde de todos os resultados de testes diagnóstico para SARS-CoV-2 realizados por laboratórios da rede pública, rede privada, universitários e quaisquer outros, em todo território nacional.
+
+    *Portaria GM/MS nº 1.768, de 30 de julho de 2021: Altera o Anexo XLII da Portaria de Consolidação GM/MS nº 2, de 28 de setembro de 2017, para dispor sobre a Política Nacional de Informação e Informática em Saúde (PNIIS).
+
+    *Portaria GM/MS nº 3.632, de 21 de dezembro de 2020: Altera a Portaria de Consolidação GM/MS nº 1, de 28 de setembro de 2017, para instituir a Estratégia de Saúde Digital para o Brasil 2020-2028 (ESD28).
+
+ 5.Descrição do serviço
+
+O Meu SUS Digital é o aplicativo oficial do Ministério da Saúde que permite ao cidadão acompanhar na palma de sua mão o seu histórico clínico, a partir das informações de saúde do Sistema Único de Saúde (SUS). Atualmente o aplicativo apresenta o registro de vacinas aplicadas e exames laboratoriais de Covid-19 realizados, atendimentos, medicamentos dispensados, além da emissão do Certificado Nacional de Vacinação Covid-19 e da Carteira nacional de Vacinação. Os dados do aplicativo são em sua maioria provenientes da Rede Nacional de Dados em Saúde (RNDS), plataforma nacional de interoperabilidade de dados em saúde, que integra diferentes sistemas de informação alimentados por profissionais de saúde. Instituída pela portaria GM/MS n. 1.434, de 28 de maio de 2020, a Rede é um projeto estruturante do programa do Governo Federal para a transformação digital da saúde no Brasil e tem o objetivo de promover a troca de informações entre os pontos da Rede de Atenção à Saúde, permitindo a transição e continuidade do cuidado nos setores público e privado. O Meu SUS Digital também é disponível em na web https://meususdigital.saude.gov.br/. Quais são os direitos do usuário do serviço. O usuário do serviço possui os seguintes direitos, conferidos pela Lei de Proteção de Dados Pessoais:
+
+  1.Direito de confirmação e acesso (Art. 18, I e II): é o direito do usuário de obter do serviço a confirmação de que os dados pessoais que lhe digam respeito são ou não objeto de tratamento e, se for esse o caso, o direito de acessar os seus dados pessoais.
+
+  2.Direito de retificação (Art. 18, III): é o direito de solicitar a correção de dados incompletos, inexatos ou desatualizados.
+
+  3.Direito à limitação do tratamento dos dados (Art. 18, IV): é o direito do usuário de limitar o tratamento de seus dados pessoais, podendo exigir a anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com o disposto na Lei Geral de Proteção de Dados.
+
+  4.Direito de oposição (Art. 18, § 2º): é o direito do usuário de, a qualquer momento, se opor ao tratamento de dados por motivos relacionados com a sua situação particular, com fundamento em uma das hipóteses de dispensa de consentimento ou em caso de descumprimento ao disposto na Lei Geral de Proteção de Dados.
+
+  5.Direito de portabilidade dos dados (Art. 18, V): é o direito do usuário de realizar a portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da autoridade nacional, observados os segredos comercial e industrial.
+
+  6.Direito de não ser submetido a decisões automatizadas (Art. 20, LGPD): o titular dos dados tem direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, incluídas as decisões destinadas a definir o seu perfil pessoal, profissional, de consumo e de crédito ou os aspectos de sua personalidade.
+
+6.Quais são as obrigações dos usuários que utilizam o serviço?
+
+O usuário se responsabiliza pela precisão e veracidade dos dados informados e reconhece que a inconsistência destes poderá implicar a impossibilidade de se utilizar o serviço Meu SUS Digital. Durante a utilização do serviço, a fim de resguardar e de proteger os direitos de terceiros, o usuário se compromete a fornecer somente seus dados pessoais, e não os de terceiros. O login e senha só poderão ser utilizados pelo usuário cadastrado. Ele se compromete em manter o sigilo da senha, que é pessoal e intransferível, não sendo possível, em qualquer hipótese e, a alegação de uso indevido, após o ato de compartilhamento. O usuário do serviço é responsável pela atualização das suas informações pessoais e consequências na omissão ou erros nas informações pessoais cadastradas. Não é possível realizar retificação de informação pelo Conecte SUS, salvo aquelas consideradas como “Registros e Contatos”, que se referem a informações autodeclaradas de Índice de Massa Corpórea (IMC), Alergias, Pressão Arterial, Glicose e Doações de Sangue. Dados cadastrais, como nome, data de nascimento, sexo, e-mail, inclusão/exclusão de nome social, são recebidos pelo sistema Cadastro Nacional de Usuários do SUS - CADSUS, onde, a partir do Cartão Nacional de Saúde – CNS, são validados com as informações disponíveis na Receita Federal. Para a correção desses dados, o cidadão deverá atualizar as informações na Receita Federal e/ou solicitar junto a qualquer estabelecimento de saúde (Alteração de dados na Receita Federal pode ser realizado em: https://servicos.receita.fazenda.gov.br/Servicos/CPF/alterar/default.asp). Os dados de saúde são inseridos nos sistemas de informação diretamente por profissionais de saúde, nos estabelecimentos assistenciais. A visualização das informações no Meu SUS Digital é possível após o devido envio destes dados à Rede Nacional de Dados em Saúde (RNDS). Para qualquer tipo de correção e alteração de dados de saúde, deve-se entrar em contato com o estabelecimento onde foi realizada a ação ou serviço de saúde, ou secretaria estadual ou municipal de saúde e solicitar a correção do registro. Compete ao gestor local de saúde, responsável pela coleta dos dados, a correção de dados incompletos, inexatos ou desatualizados, requisitada pelo cidadão, conforme Inciso III do Art. 18 da Lei nº 13.709/2018, Lei Geral de Proteção de Dados Pessoais. O Usuário é responsável pela reparação de todos e quaisquer danos, diretos ou indiretos (inclusive decorrentes de violação de quaisquer direitos de outros usuários, de terceiros, inclusive direitos de propriedade intelectual, de sigilo e de personalidade), que sejam causados à Administração Pública, a qualquer outro Usuário, ou, ainda, a qualquer terceiro, inclusive em virtude do descumprimento do disposto nesta Política de Privacidade ou de qualquer ato praticado a partir de seu acesso ao serviço. O Órgão não poderá ser responsabilizado pelos seguintes fatos:
+
+  1.Equipamento infectado ou invadido por atacantes;
+
+  2.Equipamento avariado no momento do consumo de serviços;
+
+  3.Proteção do computador;
+
+  4.Proteção das informações baseadas nos computadores dos usuários;
+
+  5.Abuso de uso dos computadores dos usuários;
+
+  6.Monitoração clandestina do computador dos usuários;
+
+  7.Vulnerabilidades ou instabilidades existentes nos sistemas dos usuários;
+
+  8.Perímetro inseguro;
+
+O uso comercial das expressões utilizadas em aplicativos como marca, nome empresarial ou nome de domínio, além dos conteúdos do serviço, assim como os programas, bancos de dados, redes, arquivos que permitem que o usuário acesse sua conta estão protegidos pelas leis e tratados internacionais de direito autoral, marcas, patentes, modelos e desenhos industriais. Ao acessar o aplicativo, os usuários declaram que irão respeitar todos os direitos de propriedade intelectual e os decorrentes da proteção de marcas, patentes e/ou desenhos industriais, depositados ou registrados em, bem como todos os direitos referentes a terceiros que porventura estejam, ou estiverem de alguma forma, disponíveis no serviço. O simples acesso ao serviço não confere aos usuários qualquer direito ao uso dos nomes, títulos, palavras, frases, marcas, patentes, imagens, dados e informações, dentre outras, que nele estejam ou estiverem disponíveis. A reprodução de conteúdo descritos anteriormente está proibida, salvo com prévia autorização por escrito ou caso se destinem ao uso exclusivamente pessoal e sem que em nenhuma circunstância os usuários adquiram qualquer direito sobre esses conteúdos. É vedada a utilização do serviço para finalidades comerciais, publicitárias ou qualquer outra que contrarie a finalidade para a qual foi concebido, conforme definido neste documento, sob pena de sujeição às sanções cabíveis na Lei nº 9.610/1998, que protege os direitos autorais no Brasil. Os visitantes e usuários assumem toda e qualquer responsabilidade, de caráter civil e/ou criminal, pela utilização indevida das informações, textos, gráficos, marcas, imagens, enfim, todo e qualquer direito de propriedade intelectual ou industrial do serviço. Em nenhuma hipótese, a Administração Pública Federal será responsável pela instalação no equipamento do Usuário ou de terceiros, de códigos maliciosos (vírus, trojans, malware, worm, bot, backdoor, spyware, rootkit, ou de quaisquer outros que venham a ser criados), em decorrência da navegação na Internet pelo Usuário.
+
+7.Quais são as responsabilidades da administração pública com meus dados?
+
+A Administração Pública, no papel de custodiante das informações pessoais dos Usuários, deve cumprir todas as legislações inerentes ao uso correto dos dados pessoais do cidadão de forma a preservar a privacidade dos dados utilizados na plataforma. Publicar e informar ao Usuário as futuras alterações a esta Política de Privacidade por meio do sítio (https://sso.acesso.gov.br/), conforme o princípio da publicidade estabelecido no artigo 37, caput, da Constituição Federal. Em nenhuma hipótese, a Administração Pública Federal será responsável pela instalação no equipamento do Usuário ou de terceiros, de códigos maliciosos (vírus, trojans, malware, worm, bot, backdoor, spyware, rootkit, ou de quaisquer outros que venham a ser criados), em decorrência da navegação na Internet pelo Usuário. Em hipótese alguma, o serviço e seus colaboradores responsabilizam-se por eventuais danos diretos, indiretos, emergentes, especiais, imprevistos ou multas causadas, em qualquer matéria de responsabilidade, seja contratual, objetiva ou civil (inclusive negligência ou outras), decorrentes de qualquer forma de uso do serviço, mesmo que advertida a possibilidade de tais danos. Tendo em vista que o serviço lida com informações pessoais, o usuário concorda que não usará robôs, sistemas de varredura e armazenamento de dados (como “spiders” ou “scrapers”), links escondidos ou qualquer outro recurso escuso, ferramenta, programa, algoritmo ou método coletor/extrator de dados automático para acessar, adquirir, copiar ou monitorar o serviço, sem permissão expressa por escrito do órgão. Em se tratando de aplicativos em dispositivos móveis sua comercialização é expressamente proibida. Ao concordar com esta Política e utilizar o aplicativo móvel, o usuário receberá uma permissão do órgão para uso não comercial dos serviços oferecidos pelo aplicativo, o que, em nenhuma hipótese, fará dele proprietário do aplicativo móvel. Caso o usuário descumpra a Política de Privacidade, ou seja, investigado em razão de má conduta, o órgão poderá restringir seu acesso. O usuário também deverá responder legalmente por essa conduta. A Administração Pública poderá, quanto às ordens judiciais de pedido de informações, compartilhar informações necessárias para investigações ou tomar medidas relacionadas a atividades ilegais, suspeitas de fraude ou ameaças potenciais contra pessoas, bens ou sistemas que sustentam o serviço ou de outra forma necessária para cumprir com as obrigações legais. Caso ocorra, a Administração Pública notificará os titulares dos dados, salvo quando o processo estiver em segredo de justiça. A Administração pública se compromete a preservar a funcionalidade do serviço ou aplicativo, utilizando um layout que respeite a usabilidade e navegabilidade, facilitando a navegação sempre que possível, e exibir as funcionalidades de maneira completa, precisa e suficiente, de modo que as operações realizadas no serviço sejam claras.
+
+
+8.Qual o contato pelo qual o usuário do serviço pode tirar suas dúvidas?
+
+Caso o usuário tenha alguma dúvida sobre esta Política de Privacidade, ele poderá entrar em contato pelo canal de atendimento ao suporte ao usuário: https://webatendimento.saude.gov.br/faq/meususdigital . Esta Política de Privacidade foi elaborada em conformidade com a Lei Federal n. 12.965 de 23 de abril de 2014 (Marco Civil da Internet) e com a Lei Federal n. 13.709, de 14 de agosto de 2018 (Lei de Proteção de Dados Pessoais). Esta Política de Privacidade poderá ser atualizada em decorrência de eventual atualização normativa, razão pela qual se convida o usuário a consultar periodicamente esta seção. O site se compromete a cumprir as normas previstas na Lei Geral de Proteção de Dados (LGPD), e respeitar os princípios dispostos no Art. 6º: I - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades; II - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento; III - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados; IV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais; V - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento; VI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial; VII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão; VIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais; IX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos; X - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.
+
+
+9.Agentes de tratamento
+
+A quem compete as decisões referentes ao tratamento de dados pessoais realizado no serviço Meu SUS Digital (Controlador)? A Lei Geral de Proteção de Dados define como controlador, em seu artigo 5º:Art. 5º, VI – controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais. Para o serviço Meu SUS Digital, as decisões referentes ao tratamento de dados pessoais são de responsabilidade do Ministério da Saúde. Endereço: Ministério da Saúde - Esplanada dos Ministérios Bloco G, Zona Cívico-Administrativa, Brasília - DF - CEP 70058900.E-mail: datasus@saude.gov.br. Telefone: 61 3315 3900. As secretarias municipais e estaduais de saúde exercem o papel de controladores de dados, devido as mesmas terem suas próprias legislações e realizarem também o tratamento de dados de saúde.
+
+
+10.Quem realiza o tratamento de dados (Operador)?
+
+A Lei Geral de Proteção de Dados define como operador, em seu artigo 5º:Art. 5º, VII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador. Para o serviço Meu SUS Digital, o Controlador Ministério da Saúde também atua como operador, ou seja, além de ser responsável pelas decisões referentes ao tratamento de dados pessoais, também realiza o tratamento de dados pessoais. O Meu SUS Digital compartilha dados com uma empresa terceirizada, desenvolvedora da aplicação, sendo assim, é um operador de dados.
+
+Todos os controles administrativos e lógicos de segurança foram exigidos à empresa terceirizada. O Meu SUS Digital armazena seus dados em nuvem privada, sendo assim o serviço de nuvem também se configura como operador de dados.
+
+
+11.Quais dados pessoais são tratados pelo serviço?
+
+A utilização, pelo usuário, de determinadas funcionalidades do serviço dependerá do tratamento dos seguintes dados pessoais:
+
+*-Nome completo
+
+ -Data de nascimento
+
+ -Sexo
+
+ -Filiação
+
+ -Nacionalidade
+
+ -Número de inscrição no CPF
+
+ -Endereço de e-mail
+
+ -Endereço
+
+ -Número de telefone
+
+ -Localização do usuário
+
+ -Foto do usuário
+
+ -Dados de Saúde (Alergias, IMC, Pressão Arterial, Glicose, Doações de Sangue)
+
+ -Vacinação Covid-19
+
+ - Vacinação de Rotina
+
+ -Resultado de Exame Covid-19
+
+ -Internações Hospitalares
+
+ -Contatos de emergência e de profissionais de saúde (Nome e Telefone)
+
+ -Medicamentos Dispensados (Programa Farmácia Popular)
+
+ -Situação Cadastral no Sistema Nacional de Transplantes
+
+O serviço Meu SUS Digital realiza o tratamento de dados de crianças e adolescentes e se compromete a fornecer maior proteção a esses dados. Além disso, o serviço Meu SUS Digital se compromete a cumprir todas as disposições legais pertinentes, como o Estatuto da Criança e do Adolescente. Alguns recursos ou informações, quando necessários pela primeira vez ou mesmo na instalação, serão solicitados por este aplicativo e notificados por meio do sistema operacional do seu dispositivo móvel, por exemplo: Acesso à rede (internet móvel ou WiFi); Acesso à identificação do dispositivo; Acesso à câmera e fotos, mídia e arquivos de áudio e vídeo de seu aparelho. Além disso, o aplicativo pode acessar, ler e gravar arquivos ou documentos do seu dispositivo
+
+12.Como os dados são coletados?
+
+*- Nome completo: Obtido de terceiros (Login Único, Cadastro Nacional de Usuários do SUS - CADSUS)
+
+- Data de nascimento: Obtido de terceiros (CADSUS)
+
+- Sexo: Obtido de terceiros (CADSUS)
+
+- Filiação: Obtido de terceiros (CADSUS)
+
+- Nacionalidade: Obtido de terceiros (CADSUS)
+
+- Endereço de e-mail: Obtido de terceiros (CADSUS)
+
+- Endereço: Obtido de terceiros (CADSUS)
+
+- Número de telefone: Obtido de terceiros (CADSUS)
+
+- Localização do usuário: Obtida pelo dispositivo de acesso, após autorização do usuário
+
+- Foto do usuário: câmera e fotos, mídia e arquivos de áudio e vídeo do dispositivo, após autorização do usuário
+
+-Dados de Saúde (Alergias, IMC, Pressão, Glicose, Doações de Sangue): Informado pelo usuário
+
+-Vacinação Covid-19: Obtido de terceiros (Rede Nacional de Dados em Saúde - RNDS)
+
+-Resultado de Exame Covid-19 : Obtido de terceiros (RNDS)
+
+-Internações Hospitalares : Obtido de terceiros (RNDS)
+
+-Contatos de emergência e de profissionais de saúde (Nome e Telefone) : Informado pelo usuário
+
+-Medicamentos Dispensados (Programa Farmácia Popular – Sistema Horus) : Obtido de terceiros
+
+-Situação Cadastral no Sistema Nacional de Transplantes : Obtido de terceiros (Sistema Nacional de Transplantes)
+
+13.Para que fim utilizamos seus dados?
+
+*-Nome completo: O dado é necessário para identificação do usuário dentro do serviço, e apresentado nos documentos de Resultado de Exame, Carteira Nacional de Vacinação e Certificado de Vacinação Covid-19.
+
+-Data de nascimento: O dado é necessário para identificação do usuário dentro do serviço, e apresentado nos documentos de Resultado de Exame, Carteira Nacional de Vacinação e Certificado de Vacinação Covid-19.
+
+-Sexo: O dado é necessário para identificação do usuário dentro do serviço, e apresentado nos documentos de Resultado de Exame, Carteira Nacional de Vacinação e Certificado de Vacinação Covid-19.
+
+-Filiação: O dado é necessário para melhorar e personalizar a experiência do usuário. O aplicativo permite adicionar outras contas. O nome da mãe é apresentado na Carteira Nacional de Vacinação e no Certificado Nacional de Vacinação Covid-19.
+
+-Nacionalidade: O dado é necessário para identificação do usuário dentro do serviço, e apresentado nos documentos de Resultado de Exame, Carteira Nacional de Vacinação e Certificado de Vacinação Covid-19.
+
+-Número de inscrição no CPF: O dado é necessário para manter o usuário logado.
+
+-Endereço de e-mail: O dado é necessário para identificação do usuário dentro do serviço e envio de notificações.
+
+-Endereço: O dado é necessário para identificação do usuário dentro do serviço.
+
+-Número de telefone: O dado é necessário para envio de notificações.
+
+-Localização do usuário: O dado é necessário para melhorar e personalizar a experiência do usuário. A localização do usuário é acionada na funcionalidade Serviços que apresenta a geolocalização dos estabelecimentos de saúde mais próximos. Dado opcional.
+
+-Foto do usuário: O dado é necessário para melhorar e personalizar a experiência do usuário no menu do aplicativo. A câmera e fotos, mídia e arquivos de áudio e vídeo do dispositivo também é utilizada para escanear códigos QR para autenticação e validação dos documentos emitidos pelo aplicativo.
+
+-Dados de Saúde (Alergias, IMC, Pressão, Glicose, Doações de Sangue): O dado é necessário para melhorar e personalizar a experiência do usuário. Dados registrados pelo próprio usuário.
+
+-Vacinação Covid-19: O dado é necessário para melhorar e personalizar a experiência do usuário. São dados da RNDS, coletados por profissionais de saúde nos serviços de vacinação, sob gestão de secretarias municipal ou estadual de saúde. Dados: nome da vacina; tipo de dose aplicada; data da vacinação; número do lote da vacina; nome do fabricante; identificação do vacinador; e identificação do serviço de vacinação.
+
+-Resultado de Exame Covid-19: O dado é necessário para melhorar e personalizar a experiência do usuário. Dados da RNDS, coletados por profissionais de saúde de laboratórios da rede pública, rede privada, universitários e quaisquer outros, em todo território nacional.
+
+-Internações Hospitalares: O dado é necessário para melhorar e personalizar a experiência do usuário. Dados da RNDS, coletados por profissionais de saúde da atenção hospitalar.
+
+-Contatos de emergência e de profissionais de saúde (Nome e Telefone): O dado é necessário para melhorar e personalizar a experiência do usuário. Dados registrados pelo próprio usuário.
+
+-Medicamentos Dispensados (Programa Farmácia Popular e Sistema Horus) : O dado é necessário para melhorar e personalizar a experiência do usuário. Dados coletados por profissionais de saúde para dispensação de medicamento do Programa Farmácia Popular.
+
+-Situação Cadastral no Sistema Nacional de Transplantes: O dado é necessário para melhorar e personalizar a experiência do usuário. Dados coletados pelas Secretarias Estaduais de Transplantes (Centrais Estaduais de Transplantes) que apresentam informações sobre o status e posição do usuário na lista de espera para transplante de órgão e tecido.
+
+
+14.Qual o tratamento realizado com os dados pessoais?
+
+*-Nome Completo: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Data De Nascimento: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Sexo: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Filiação: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção-Nacionalidade: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Número de Inscrição no CPF: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção-Endereço de e-mail: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Endereço: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Número de Telefone: Acesso, Armazenamento, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Localização Do Usuário: Acesso, Coleta
+
+-Foto Do Usuário: Acesso, Coleta-Dados De Saúde (Alergias, IMC, Pressão, Glicose, Doações De Sangue): Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Vacinação Covid-19: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Resultado De Exame Covid-19: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Internações Hospitalares: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção-Contatos De Emergência E De Profissionais De Saúde (Nome E Telefone): Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Medicamentos Dispensados (Programa Farmácia Popular e Sistema Horus): Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+-Situação Cadastral No Sistema Nacional De Transplantes: Acesso, Armazenamento, Avaliação, Coleta, Comunicação, Controle, Difusão, Distribuição, Eliminação, Extração, Processamento, Produção, Recepção
+
+
+15.Os dados pessoais utilizados no serviço são compartilhados?
+
+Os dados pessoais do usuário poderão ser compartilhados com as seguintes pessoas ou empresas: profissionais de saúde com acesso ao Conecte SUS Profissional, Secretarias Estaduais e Municipais de Saúde, Agência Nacional de Vigilância Sanitária (ANVISA), Controladoria-Geral da União (CGU), Tribunal de Contas da união (TCU), Operador que desenvolve o Meu SUS Digital e o serviço de nuvem que armazena os dados.
+
+16.Segurança no tratamento dos dados pessoais do usuário
+
+O serviço Meu SUS Digital se compromete a aplicar as medidas técnicas e organizativas aptas a proteger os dados pessoais de acessos não autorizados e de situações de destruição, perda, alteração, comunicação ou difusão de tais dados. Para a garantia da segurança, serão adotadas soluções que levem em consideração: as técnicas adequadas; os custos de aplicação; a natureza, o âmbito, o contexto e as finalidades do tratamento; e os riscos para os direitos e liberdades do usuário. O site utiliza criptografia para que os dados sejam transmitidos de forma segura e confidencial, de maneira que a transmissão dos dados entre o servidor e o usuário, e em retroalimentação, ocorra de maneira totalmente cifrada ou encriptada. No entanto, o site se exime de responsabilidade por culpa exclusiva de terceiro, como em caso de ataque de hackers ou crackers, ou culpa exclusiva do usuário, como no caso em que ele mesmo transfere seus dados a terceiro. O serviço Conecte SUS se compromete, ainda, a comunicar o usuário em prazo adequado caso ocorra algum tipo de violação da segurança de seus dados pessoais que possa lhe causar um alto risco para seus direitos e liberdades pessoais. A violação de dados pessoais é uma violação de segurança que provoque, de modo acidental ou ilícito, a destruição, a perda, a alteração, a divulgação ou o acesso não autorizado a dados pessoais transmitidos, conservados ou sujeitos a qualquer outro tipo de tratamento. Por fim, o site se compromete a tratar os dados pessoais do usuário com confidencialidade, dentro dos limites legais.
+
+
+17.O serviço Meu SUS Digital utiliza cookies?
+
+Cookies são pequenos arquivos de texto enviados pelo site ao computador do usuário e que nele ficam armazenados, com informações relacionadas à navegação do site. Por meio dos cookies, pequenas quantidades de informação são armazenadas pelo navegador do usuário para que nosso servidor possa lê-las posteriormente. Podem ser armazenados, por exemplo, dados sobre o dispositivo utilizado pelo usuário, bem como seu local e horário de acesso ao site. É importante ressaltar que nem todo cookie contém dados pessoais do usuário, já que determinados tipos de cookies podem ser utilizados somente para que o serviço funcione corretamente. As informações eventualmente armazenadas em cookies também são consideradas dados pessoais e todas as regras previstas nesta Política de Privacidade também são aplicáveis a eles. O serviço Meu SUS Digital não utiliza cookies.
+
+
+18.Esta Política de Privacidade pode ser alterada?
+
+A presente versão desta Política de Privacidade foi atualizada pela última vez em: 10/01/2024. O editor se reserva o direito de modificar, a qualquer momento o site as presentes normas, especialmente para adaptá-las às evoluções do serviço Meu SUS Digital, seja pela disponibilização de novas funcionalidades, seja pela supressão ou modificação daquelas já existentes.Qualquer alteração e/ou atualização desta Política de Privacidade passará a vigorar a partir da data de sua publicação no sítio do serviço e deverá ser integralmente observada pelos Usuários.
+
+
+19.Qual o foro aplicável caso o usuário queira realizar alguma reclamação?
+
+Sem prejuízo de qualquer outra via de recurso administrativo ou judicial, todos os titulares de dados têm direito a apresentar reclamação à Autoridade Nacional de Proteção de Dados. Este Termo será regido pela legislação brasileira. Qualquer reclamação ou controvérsia com base neste Termo será dirimida exclusivamente pela Justiça Federal, na seção judiciária do domicílio do usuário, por previsão do artigo 109, §§ 1º, 2º e 3º, da Constituição Federal.

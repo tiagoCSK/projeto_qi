@@ -1,0 +1,97 @@
+1.ACEITAÇÃO DO TERMO DE USO
+
+O presente Termo de Uso se refere a um contrato de adesão firmado entre o usuário e o Ministério da            Saúde, fornecedor deste serviço, com Sede na Esplanada dos Ministérios Bloco G, Zona Cívico-Administrativa,            Brasília - DF - CEP 70058900.O uso deste serviço está condicionado à aceitação dos termos e das políticas            associadas. O usuário deverá conhecer tais termos e políticas certificar-se de havê-los entendido, estar            consciente de todas as condições estabelecidas no Termo de Uso. Ao utilizar o serviço, o usuário assume            estar de acordo com relação ao conteúdo deste Termo de Uso e estará legalmente vinculado a todas as            condições aqui previstas.
+
+2.DEFINIÇÕES DO TERMO DE USO
+
+ Para os fins deste Termo de Uso, são aplicáveis as seguintes definições:
+
+ *Agente público: todo aquele que exerce, ainda que transitoriamente ou sem remuneração, por              eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo, mandato, cargo, emprego ou função nos órgãos e entidades da Administração Pública, direta e indireta.
+
+*Agentes de Estado: inclui órgãos e entidades da Administração pública além dos seus agentes públicos.
+
+*Códigos maliciosos: são qualquer programa de computador, ou parte de um programa,              construído com a intenção de provocar danos, obter informações não autorizadas ou interromper o funcionamento de sistemas e/ou redes de computadores.
+
+*Sítios e aplicativos: sítios e aplicativos por meio dos quais o usuário acessa os serviços e conteúdos disponibilizados.
+
+*Terceiro: pessoa ou entidade que não participa diretamente em um contrato, em um ato              jurídico ou em um negócio, ou que, para além das partes envolvidas, pode ter interesse num processo              jurídico.
+
+*Internet: sistema constituído do conjunto de protocolos lógicos, estruturado em escala              mundial para uso público e irrestrito, com a finalidade de possibilitar a comunicação de dados entre terminais por meio de diferentes redes.
+
+*Usuários: (ou "Usuário", quando individualmente considerado): todas as pessoas naturais que utilizarem o serviço (citar o serviço).
+
+3.ARCABOUÇO LEGAL
+
+O arcabouço legal aplicável ao serviço Meu SUS Digital compreende os seguintes atos legislativos e            normativos:            Lei nº 12.965, de 23 de abril de 2014, Marco Civil da Internet: Estabelece princípios, garantias, direitos e            deveres para o uso da Internet no Brasil, Lei nº 12.527, de 18 de novembro de 2011, Lei de Acesso à            Informação: Regula o acesso a informações previsto na Constituição Federal, Lei nº 13.460, de 26 de junho de            2017: Dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da            administração pública, Lei nº 13.709, de 14 de agosto de 2018: Dispõe sobre o tratamento de dados pessoais,            inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o            objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da            personalidade da pessoa natural, Lei nº 13.444, de 11 de maio de 2017: Dispõe sobre a Identificação Civil            Nacional (ICN), Decreto nº 8.777, de 11 de maio de 2016: Institui a Política de Dados Abertos do Poder            Executivo federal, Decreto nº 7.724, de 16 de maio de 2012: Regulamenta a Lei no 12.527, de 18 de novembro            de 2011 (Lei de Acesso à Informação), que dispõe sobre o acesso a informações previsto na Constituição,            Decreto nº 7.845, de 14 de novembro de 2012: Regulamenta procedimentos para credenciamento de segurança e            tratamento de informação classificada em qualquer grau de sigilo, e dispõe sobre o Núcleo de Segurança e            Credenciamento, Decreto nº 10.046, de 09 de outubro de 2019: Dispõe sobre a governança no compartilhamento            de dados no âmbito da administração pública federal e institui o Cadastro Base do Cidadão e o Comitê Central            de Governança de Dados, Normas complementares do Gabinete de Segurança da Informação da Presidência            (GSI/PR): Disciplinam a Gestão de Segurança da Informação e Comunicações na Administração Pública Federal,            direta e indireta, e dá outras providências, Decreto nº 9.637, de 26 de dezembro de 2018: Institui a            Política Nacional de Segurança da Informação, dispõe sobre a governança da segurança da informação, e altera            o Decreto nº 2.295, de 4 de agosto de 1997, que regulamenta o disposto no art. 24, caput, inciso IX, da Lei            nº 8.666, de 21 de junho de 1993, e dispõe sobre a dispensa de licitação nos casos que possam comprometer a            segurança nacional, Lei nº 12.737, de 30 de novembro de 2012:Dispõe sobre a tipificação criminal de delitos            informáticos, Portaria GM/MS nº 69, de 14 de Janeiro de 2021: Institui a obrigatoriedade de registro de            aplicação de vacinas contra a Covid-19 nos sistemas de informação do Ministério da Saúde, Portaria GM/MS nº            1.434, de 28 de maio de 2020: Institui o Programa Conecte SUS e altera a Portaria de Consolidação nº            1/GM/MS, de 28 de setembro de 2017, para instituir a Rede Nacional de Dados em Saúde e dispor sobre a adoção            de padrões de interoperabilidade em saúde, Portaria GM/MS nº 1.792, de 17 de julho de 2020: Altera a            Portaria nº 356/GM/MS, de 11 de março de 2020, para dispor sobre a obrigatoriedade de notificação ao            Ministério da Saúde de todos os resultados de testes diagnóstico para SARS-CoV-2 realizados por laboratórios            da rede pública, rede privada, universitários e quaisquer outros, em todo território nacional, Portaria            GM/MS nº 1.768, de 30 de julho de 2021: Altera o Anexo XLII da Portaria de Consolidação GM/MS nº 2, de 28 de            setembro de 2017, para dispor sobre a Política Nacional de Informação e Informática em Saúde (PNIIS),            Portaria GM/MS nº 3.632, de 21 de dezembro de 2020: Altera a Portaria de Consolidação GM/MS nº 1, de 28 de            setembro de 2017, para instituir a Estratégia de Saúde Digital para o Brasil 2020-2028 (ESD28).
+
+4.DESCRIÇÃO DO SERVIÇO
+
+O Meu SUS Digital é o aplicativo oficial do Ministério da Saúde que permite ao cidadão acompanhar na            palma de sua mão o seu histórico clínico, a partir das informações de saúde do Sistema Único de Saúde (SUS).            Atualmente o aplicativo apresenta o registro de vacinas aplicadas e exames laboratoriais de Covid-19            realizados, internações, medicamentos dispensados, além da emissão do Certificado Nacional de Vacinação            Covid-19 e da Carteira nacional de Vacinação. Os dados do aplicativo são em sua maioria provenientes da Rede            Nacional de Dados em Saúde (RNDS), plataforma nacional de interoperabilidade de dados em saúde, que integra            diferentes sistemas de informação alimentados por profissionais de saúde. Instituída pela portaria GM/MS n.            1.434, de 28 de maio de 2020, a Rede é um projeto estruturante do programa do Governo Federal para a            transformação digital da saúde no Brasil e tem o objetivo de promover a troca de informações entre os pontos            da Rede de Atenção à Saúde, permitindo a transição e continuidade do cuidado nos setores público e privado.            O Meu SUS Digital também é disponível em na web https://meususdigital.saude.gov.br/.
+
+5.DIREITOS DO USUÁRIO DO SERVIÇO:
+
+De acordo com a Lei nº 13.460, de 26 de junho de 2017, são direitos básicos do usuário:
+
+*Participação no acompanhamento da prestação e na avaliação dos serviços.
+
+*Obtenção e utilização dos serviços com liberdade de escolha entre os meios oferecidos e sem discriminação.
+
+*Acesso e obtenção de informações relativas à sua pessoa constantes de registros ou bancos de dados,              observado o disposto no inciso X do caput do art. 5º da Constituição Federal e na Lei nº 12.527, de 18 de              novembro de 2011.
+
+*Proteção de suas informações pessoais, nos termos da Lei nº 12.527, de 18 de novembro de 2011.
+
+*Atuação integrada e sistêmica na expedição de atestados, certidões e documentos comprobatórios de              regularidade.
+
+*Obtenção de informações precisas e de fácil acesso nos locais de prestação do serviço, assim como sua              disponibilização na internet, especialmente sobre:
+
+*Horário de funcionamento das unidades administrativas;
+
+*Serviços prestados pelo órgão ou entidade, sua localização exata e a indicação do                  setor responsável                  pelo                  atendimento ao público;
+
+*Acesso ao agente público ou ao órgão encarregado de receber manifestações;
+
+*Situação da tramitação dos processos administrativos em que figure como interessado;
+
+*Valor das taxas e tarifas cobradas pela prestação dos serviços, contendo informações                  para a                  compreensão                  exata da extensão do serviço prestado.
+
+6.RESPONSABILIDADES DO USUÁRIO
+
+O usuário se responsabiliza pela precisão e pela veracidade dos dados informados e reconhece que a            inconsistência deles poderá implicar a impossibilidade de se utilizar o serviço Meu SUS Digital. Durante a            utilização do serviço, a fim de resguardar e de proteger os direitos de terceiros, o usuário se compromete a            fornecer somente seus dados pessoais, e não os de terceiros. O login e senha só poderão ser utilizados pelo            usuário cadastrado. Ele se compromete em manter o sigilo da senha, que é pessoal e intransferível, não sendo            possível, em qualquer hipótese, a alegação de uso indevido após o ato de compartilhamento. O usuário do            serviço é responsável pela atualização dos seus dados pessoais e pelas consequências em caso de omissão ou            erros nos dados fornecidos. O Usuário é responsável pela reparação de todos e quaisquer danos, diretos ou            indiretos (inclusive decorrentes de violação de quaisquer direitos de outros usuários; de terceiros,            inclusive direitos de propriedade intelectual; de sigilo; e de personalidade), que sejam causados à            Administração Pública, a qualquer outro Usuário, ou ainda a qualquer terceiro, inclusive em virtude do            descumprimento do disposto nestes Termos de Uso e Política de Privacidade ou de qualquer ato praticado a            partir de seu acesso ao serviço. O Ministério da Saúde não poderá ser responsabilizado pelos seguintes            fatos:
+
+*Equipamento infectado ou invadido por atacantes;
+
+*Equipamento avariado no momento do consumo de serviços;
+
+*Proteção do computador;
+
+*Proteção das informações baseadas nos computadores dos usuários;
+
+*Abuso de uso dos computadores dos usuários;
+
+*Monitoração clandestina do computador dos usuários;
+
+*Vulnerabilidades ou instabilidades existentes nos sistemas dos usuários;
+
+*Perímetro inseguro.
+
+7.RESPONSABILIDADE DA ADMINISTRAÇÃO PÚBLICA
+
+Quais são as responsabilidades da Administração Pública com meus dados?
+
+A Administração Pública se compromete a cumprir todas as legislações inerentes ao uso correto dos dados            pessoais do cidadão de forma a preservar a privacidade dos dados utilizados no serviço, bem como a garantir            todos os direitos e garantias legais dos titulares dos dados. Ela também se obriga a promover,            independentemente de requerimentos, a divulgação em local de fácil acesso, no âmbito de suas competências,            de informações de interesse coletivo ou geral por eles produzidas ou custodiadas. É de responsabilidade da            Administração Pública implementar controles de segurança para proteção dos dados pessoais dos titulares. A            Administração Pública poderá, quanto às ordens judiciais de pedido das informações, compartilhar informações            necessárias para investigações ou tomar medidas relacionadas a atividades ilegais, suspeitas de fraude ou            ameaças potenciais contra pessoas, bens ou sistemas que sustentam o Serviço ou de outra forma necessárias            para cumprir com obrigações legais. Caso ocorra, a Administração Pública notificará os titulares dos dados,            salvo quando o processo estiver em segredo de justiça.
+
+8.POLÍTICA DE PRIVACIDADE
+
+A Política de Privacidade estabelecida pelo Ministério da Saúde e utilizada pelo Meu SUS Digital trata            da utilização de dados pessoais. Essa Política específica faz parte de forma inerente do presente Termo de            Uso, ressaltando-se que os dados pessoais mencionados por esse Serviço serão tratados nos termos da            legislação em vigor. Para mais informações acesse nossa política de privacidade em            https://meususdigital.saude.gov.br/menu/termo-politica
+
+9.MUDANÇAS NO TERMO DE USO
+
+Este Termo de Uso pode ser alterado? A presente versão (Meu SUS Digital) deste Termo de Uso foi            atualizada pela última vez em: 11/01/2024. O editor se reserva o direito de modificar no site, a qualquer            momento, as presentes normas, especialmente para adaptá-las às evoluções do serviço Meu SUS Digital, seja            pela disponibilização de novas funcionalidades, seja pela supressão ou modificação daquelas já existentes.            Qualquer alteração e/ou atualização do Termos de Uso e da Política de Privacidade passará a vigorar a partir            da data de sua publicação no sítio do serviço e deverá ser integralmente observada pelos Usuários.
+
+10.INFORMAÇÕES PARA CONTATO
+
+Em caso de dúvidas relacionadas ao Meu SUS Digital entre em contato através dos nossos canais de            atendimento: https://webatendimento.saude.gov.br/faq/meususdigital.
+
+11.FORO
+
+Este Termo será regido pela legislação brasileira. Qualquer reclamação ou controvérsia com base neste            Termo será dirimida exclusivamente pela comarca/seção judiciária de Brasília, Distrito Federal, Tribunal de            Justiça do Distrito Federal sem prejuízo de qualquer outra via administrativa ou judicial disponível, todos            os titulares de dados pessoais têm direito a apresentar reclamação à Autoridade Nacional de Proteção de            Dados (ANPD).

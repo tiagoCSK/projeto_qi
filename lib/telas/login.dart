@@ -74,7 +74,7 @@ class login extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    AppText('Não em uma conta?'),
+                    AppText('Não tem uma conta?'),
                     const SizedBox(width: 6,),
                     GestureDetector(onTap: (){
                       Navigator.of(context).push(MaterialPageRoute(builder: (context) {

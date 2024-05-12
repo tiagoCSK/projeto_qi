@@ -1,111 +1,118 @@
 import 'package:flutter/material.dart';
+import 'package:repos/constans.dart';
 
-import 'package:intl/intl.dart';
-
-import 'package:repos/telas/horizonal_week_calendar.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
+class agendamentos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Packages Test',
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-      ),
-      home: const HorizontalWeekCalendarPackage(),
-      debugShowCheckedModeBanner: false,
-    );
-  }
-}
-
-class HorizontalWeekCalendarPackage extends StatefulWidget {
-  const HorizontalWeekCalendarPackage({super.key});
-
-  @override
-  State<HorizontalWeekCalendarPackage> createState() =>
-      _HorizontalWeekCalendarPackageState();
-}
-
-class _HorizontalWeekCalendarPackageState
-    extends State<HorizontalWeekCalendarPackage> {
-  var selectedDate = DateTime.now();
-
-  @override
-  Widget build(BuildContext context) {
-    var theme = Theme.of(context);
-
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-        title: const Text(
-          "Horizontal Week Calendar",
-          style: TextStyle(
-            color: Colors.white,
-          ),
-        ),
-      ),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(10),
-          child: Column(
+        backgroundColor: appcolors.azul,
+        toolbarHeight: 60.0,
+        title: Container( color: appcolors.azul,
+              width:300,
+              height: 50, 
+              child: Center(child: Text('Consultas agendadas',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),))
+              ),
+          
+        
+      ), backgroundColor: appcolors.azul,
+      body:  SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+         child:  Row(
             children: [
-              HorizontalWeekCalendar(
-                weekStartFrom: WeekStartFrom.Monday,
-                activeBackgroundColor: Colors.deepPurple,
-                activeTextColor: Colors.white,
-                inactiveBackgroundColor: Colors.deepPurple.withOpacity(.3),
-                inactiveTextColor: Colors.white,
-                disabledTextColor: Colors.grey,
-                disabledBackgroundColor: Colors.grey.withOpacity(.3),
-                activeNavigatorColor: Colors.deepPurple,
-                inactiveNavigatorColor: Colors.grey,
-                monthColor: Colors.deepPurple,
-                onDateChange: (date) {
-                  setState(() {
-                    selectedDate = date;
-                  });
-                },
-                borderRadius: BorderRadius.circular(5),
-                showNavigationButtons: true,
-                monthFormat: "MMMM yyyy",
-                minDate: DateTime(2023, 12, 31),
-                maxDate: DateTime(2024, 1, 31),
-                initialDate: DateTime(2024, 1, 15),
-                // initialDate: DateTime(2024, 4, 6),
-              ),
-              Expanded(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
+              Column(  children: [ 
+                Row(
                   children: [
-                    Text(
-                      "Selected Date",
-                      textAlign: TextAlign.center,
-                      style: theme.textTheme.titleMedium!.copyWith(
-                        color: theme.primaryColor,
-                      ),
+                    Container(  
+                      height: 588,
+                      child: Image.asset('assets/imagens/telaconsulta.jpg'),
+                      
                     ),
-                    const SizedBox(height: 3),
-                    Text(
-                      DateFormat('dd MMM yyyy').format(selectedDate),
-                      textAlign: TextAlign.center,
-                      style: theme.textTheme.titleLarge!.copyWith(
-                        color: theme.primaryColor,
-                      ),
-                    ),
-                  ],
+                    Container(  
+                  height: 588,
+                  child: Image.asset('assets/imagens/hospitalj.jpeg'),
+                  
                 ),
-              ),
+                 
+                  ],
+                ), 
+                SizedBox( height: 22,),
+                 
+                 SingleChildScrollView(scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [SizedBox( width: 0,),
+                      Container(
+                            height: 230,
+                            width: 429,
+                            
+                          
+                                decoration: BoxDecoration(color: const Color(0xFFFAFAFA),
+                                  borderRadius: BorderRadius.circular(10),
+                                 border: const Border(
+                                  bottom: BorderSide(
+                                    color: Colors.black,
+                                    width: 3
+                                  ),
+                                 )    
+                                 
+                                  ),
+                            child: const Padding(
+                              padding: EdgeInsets.all(15.0),
+                              child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [ 
+                                Text('Local: Hospital Padre Jeremias',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                 SizedBox( height: 5,),
+                                Text('Especialidade: Clinico Geral',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                 SizedBox( height: 5,),
+                                Text('Data: 08/05',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                SizedBox( height: 5,),
+                                Text('hora: 09:00',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                ],
+                              ),
+                            ),
+                                
+                                
+                          ), const SizedBox( width: 40,),
+                          Container(
+                            height: 230,
+                            width: 429,
+                            
+                          
+                                decoration: BoxDecoration(color: const Color(0xFFFAFAFA),
+                                  borderRadius: BorderRadius.circular(10),
+                                 border: const Border(
+                                  bottom: BorderSide(
+                                    color: Colors.black,
+                                    width: 3
+                                  ),
+                                 )    
+                                 
+                                  ),
+                            child: const Padding(
+                              padding: EdgeInsets.all(15.0),
+                              child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [ 
+                                Text('Local: Hospital Dom João Becker',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                SizedBox( height: 5,),
+                                Text('Especialidade: Cardiologista',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                SizedBox( height: 5,),
+                                Text('Data: 11/05',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                Text('hora: 13:00',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+                                ],
+                              ),
+                            ),
+                                
+                                
+                          ),
+                          SizedBox( width: 0),
+                    ],
+                  ),
+              
+              )],),
             ],
           ),
-        ),
-      ),
-    );
+      )
+      );
+    
   }
 }

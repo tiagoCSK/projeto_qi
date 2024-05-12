@@ -22,13 +22,20 @@ dependencies:
   horizontal_week_calendar: ^0.0.7
   carousel_slider: ^4.2.1
   intl: ^0.17.0
+  horizontal_calendar: ^1.1.1
+  table_calendar: ^3.0.8
+  web_socket_channel: ^2.4.5
+  flutter_mobx: ^2.2.1+1
+  mobx: ^2.3.3+2
+  mobx_codegen: ^2.6.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  
-  flutter_lints: ^3.0.0
+  mobx_codegen: ^2.6.1
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.9
 
 
 flutter:
@@ -41,3 +48,6 @@ flutter:
      - assets/imagens/logoentrar.png
      - assets/imagens/imagen.inicio.png
      - assets/imagens/cruz.png
+     - assets/imagens/telaconsulta.jpg
+     - assets/imagens/hospitalj.jpeg
+     - assets/lib/termosdeuso.txt

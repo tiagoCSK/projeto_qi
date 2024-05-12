@@ -5,6 +5,8 @@
 
 
 import 'package:repos/constans.dart';
+import 'package:repos/telas/Termosdeutilizacao.dart';
+import 'package:repos/telas/consultas_agendadas.dart';
 
 import 'login.dart';
 import 'package:repos/telas/agenda_consulta.dart';
@@ -194,7 +196,7 @@ class tela extends StatelessWidget {
         backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return appcolors.azul;},
         ),),onPressed: (){
           Navigator.push(context, MaterialPageRoute(
-            builder: (context){return login();}));}, child: const Icon(
+            builder: (context){return termosdeutilizacao();}));}, child: const Icon(
               color: Colors.black,
               Icons.info,
               size: 60,),)
@@ -250,7 +252,7 @@ class tela extends StatelessWidget {
             ),),
             onPressed: (){
           Navigator.push(context, MaterialPageRoute(
-                builder: (context){return login();}));
+                builder: (context){return agendamentos();}));
                }, child:const Icon(Icons.event_note,
                size: 60,
                color: Colors.black,
