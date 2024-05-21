@@ -7,6 +7,7 @@
 import 'package:repos/constans.dart';
 import 'package:repos/telas/Termosdeutilizacao.dart';
 import 'package:repos/telas/consultas_agendadas.dart';
+import 'package:repos/telas/tela_perfil.dart';
 
 import 'login.dart';
 import 'package:repos/telas/agenda_consulta.dart';
@@ -17,7 +18,7 @@ import 'package:repos/telas/sobre_o_sus.dart';
 import 'emergencia.dart';
 import 'package:flutter/material.dart';
 import 'criarconta.dart';
-
+import 'chat_page.dart';
 
 class tela extends StatelessWidget {
   const tela({super.key});
@@ -179,14 +180,14 @@ class tela extends StatelessWidget {
         backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromARGB(255, 57, 133, 196);},
         ),),
       onPressed: (){Navigator.push(context, MaterialPageRoute(
-            builder: (context){return agenda_consulta();}));}, child: Image.asset("assets/imagens/cruz.png", height: 61,),),
+            builder: (context){return sobre_o_sus();}));}, child: Image.asset("assets/imagens/cruz.png", height: 61,),),
      ElevatedButton(
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromARGB(255, 57, 133, 196);},
         ),),
         onPressed: (){
       Navigator.push(context, MaterialPageRoute(
-            builder: (context){return hospitais();}));
+            builder: (context){return ChatPage();}));
      }, child:const Icon(Icons.chat,
      size: 60,
      color: Colors.black,
@@ -262,7 +263,7 @@ class tela extends StatelessWidget {
             backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return ;},
             ),),onPressed: (){
               Navigator.push(context, MaterialPageRoute(
-                builder: (context){return sobre_o_sus();}));}, child: const Icon(
+                builder: (context){return perfil();}));}, child: const Icon(
                   color: Colors.black,
                   Icons.person,
                   size: 60,),)
