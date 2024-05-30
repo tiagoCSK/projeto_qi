@@ -1,20 +1,11 @@
-
-
-
-
-
-
 import 'package:repos/constans.dart';
 import 'package:repos/telas/Termosdeutilizacao.dart';
 import 'package:repos/telas/consultas_agendadas.dart';
 import 'package:repos/telas/tela_perfil.dart';
-
+import 'package:repos/telas/teste';
 import 'login.dart';
 import 'package:repos/telas/agenda_consulta.dart';
-
-import 'package:repos/telas/hospitais.dart';
 import 'package:repos/telas/sobre_o_sus.dart';
-
 import 'emergencia.dart';
 import 'package:flutter/material.dart';
 import 'criarconta.dart';
@@ -25,17 +16,18 @@ class tela extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       body:Column(children: [ Container(
         color: const Color.fromARGB(255, 57, 133, 196) ,
             
-    width: 500.0,
+    
     height: 215.0,
     child: Column(
      crossAxisAlignment: CrossAxisAlignment.start, 
     children: [
       const SizedBox(width: 70,
-      height: 70,child: Text('dasd'),),
+      height: 70,child: Text(''),),
       Row(children: [
         const SizedBox(
           width: 150,
@@ -103,7 +95,7 @@ class tela extends StatelessWidget {
         backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromARGB(255, 57, 133, 196);},
         ),),
       onPressed: (){Navigator.push(context, MaterialPageRoute(
-            builder: (context){return agenda_consulta();}));}, child: const Icon(
+            builder: (context){return const AgendaConsulta();}));}, child: const Icon(
               color: Colors.black,
               Icons.edit_calendar,
               size: 60,
@@ -114,7 +106,7 @@ class tela extends StatelessWidget {
         ),),
         onPressed: (){
       Navigator.push(context, MaterialPageRoute(
-            builder: (context){return hospitais();}));
+            builder: (context){return SelecaoFirebase();}));
      }, child:const Icon(Icons.domain_add,
      size: 60,
      color: Colors.black,
@@ -187,7 +179,7 @@ class tela extends StatelessWidget {
         ),),
         onPressed: (){
       Navigator.push(context, MaterialPageRoute(
-            builder: (context){return ChatPage();}));
+            builder: (context){return const MyApp();}));
      }, child:const Icon(Icons.chat,
      size: 60,
      color: Colors.black,
@@ -202,20 +194,20 @@ class tela extends StatelessWidget {
               Icons.info,
               size: 60,),)
     ] 
-    )),
-     const Row(
-              children: [ SizedBox(width: 52,),
+    )), 
+     const Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [ 
                 SizedBox( width: 70, 
                   child: Text('sobre o SUS',style: TextStyle(fontWeight: FontWeight.bold,
                             fontSize: 20,
                             )),
                 ),
-                SizedBox(width: 58,),
+                
                  SizedBox(  width: 90,
                   child: Text(    'Fale com o SUS',style: TextStyle(fontWeight: FontWeight.bold,
                             fontSize: 20,
                             )),
-                ), SizedBox(width: 45,),
+                ), 
                 SizedBox( width: 100,
                   child: Text('Termos de Utilização',style: TextStyle(fontWeight: FontWeight.bold,
                             fontSize: 20, 
@@ -253,7 +245,7 @@ class tela extends StatelessWidget {
             ),),
             onPressed: (){
           Navigator.push(context, MaterialPageRoute(
-                builder: (context){return agendamentos();}));
+                builder: (context){return ConsultasAgendadasScreen();}));
                }, child:const Icon(Icons.event_note,
                size: 60,
                color: Colors.black,

@@ -1,425 +1,29 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
-import 'package:repos/constans.dart';
+import 'package:repos/telas/agendamentos.dart';
+import 'package:repos/telas/consultas_agendadas.dart';
 
 
-import 'consultas_agendadas.dart';
-enum SingingCharacter {  Becker, Padre, Cristo}
-enum bbcharacter {   Cardiologista, Pediatra, ClinicoGeral, Traumatologista, Geriatra, Obstetra}
-enum Datacharacter {   dia6   , dia7 , dia8, dia9, dia10, dia11}
-enum horas { horas7, horas9, hora13 , horas15, horas18 ,horas20 }
-class RadioExample extends StatefulWidget {
-  const RadioExample({super.key});
+class AgendaConsulta extends StatefulWidget {
+  const AgendaConsulta({Key? key}) : super(key: key);
 
   @override
-  State<RadioExample> createState() => _RadioExampleState();
+  
+  _AgendaConsultaState createState() => _AgendaConsultaState();
 }
-class _RadioExampleState extends State<RadioExample> {
-  SingingCharacter? _character = SingingCharacter.Becker;
+
+class _AgendaConsultaState extends State<AgendaConsulta> {
+  Hospitais? _hospitalSelecionado;
+  Especialidade? _especialidadeSelecionada;
+  Data? _dataSelecionada;
+  Horas? _horarioSelecionado; 
+ 
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: Color.fromRGBO(247, 246, 244, 1),
-      child: Column(
-        children: <Widget>[
-          ListTile(contentPadding: EdgeInsets.all(1),iconColor: Colors.black,
-            title: const Text('Hospital Padre Jeremias 2,1 KM',
-            style: TextStyle(fontSize: 17),),
-            leading: Radio<SingingCharacter>(activeColor: Color.fromRGBO(10, 10, 10, 1),
-            
-              value: SingingCharacter.Padre,
-              groupValue: _character,
-              onChanged: (SingingCharacter? value) {
-                setState(() {
-                  _character = value;
-                });
-              },
-            ),
-          ),
-          ListTile(contentPadding: EdgeInsets.all(1),iconColor: Colors.black,
-            title: const Text('Hospital Dom João Becker 6,5KM',
-            style: TextStyle(fontSize: 17),),
-            leading: Radio<SingingCharacter>(activeColor: Color.fromRGBO(10, 10, 10, 1),
-            
-              value: SingingCharacter.Becker,
-              groupValue: _character,
-              onChanged: (SingingCharacter? value) {
-                setState(() {
-                  _character = value;
-                });
-              },
-            ),
-          ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-            title: const Text('Hospital Cristo Redentor 11,3KM',
-            style: TextStyle(fontSize: 17),),
-            leading: Radio<SingingCharacter>(activeColor: Color.fromRGBO(10, 10, 10, 1),
-            
-              value: SingingCharacter.Cristo,
-              groupValue: _character,
-              onChanged: (SingingCharacter? value) {
-                setState(() {
-                  _character = value;
-                });
-              },
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-class Especialidade extends StatefulWidget {
-  const Especialidade({super.key});
-
-  @override
-  State<Especialidade> createState() => _EspecialidadeState();
-}
-class _EspecialidadeState extends State<Especialidade> {
-  bbcharacter? _character = bbcharacter.Cardiologista;
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Container(color: const Color.fromRGBO(255, 255, 255, 1), width: 200,
-          child: Column(
-                children: <Widget>[
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('Cardiologista',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<bbcharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: bbcharacter.Cardiologista,
-                      groupValue: _character,
-                      onChanged: (bbcharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('Pediatra',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<bbcharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: bbcharacter.Pediatra,
-                      groupValue: _character,
-                      onChanged: (bbcharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('Clínico Geral',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<bbcharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: bbcharacter.ClinicoGeral,
-                      groupValue: _character,
-                      onChanged: (bbcharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                ],
-              ),
-            
-          ),
-          Container(color: const Color.fromRGBO(255, 255, 255, 1), width: 200,
-          child: Column(
-                children: <Widget>[
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('Traumatologista',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<bbcharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: bbcharacter.Traumatologista,
-                      groupValue: _character,
-                      onChanged: (bbcharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('Geriatra',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<bbcharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: bbcharacter.Geriatra,
-                      groupValue: _character,
-                      onChanged: (bbcharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('Obstetra',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<bbcharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: bbcharacter.Obstetra,
-                      groupValue: _character,
-                      onChanged: (bbcharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                ],
-              ),
-            
-          ),
-      ],
-    )
-    ;
-  }
-}
-class Data extends StatefulWidget {
-  const Data({super.key});
-
-  @override
-  State<Data> createState() => _DataState();
-}
-class _DataState extends State<Data> {
-  Datacharacter? _character = Datacharacter.dia6;
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Container(color: const Color.fromRGBO(255, 255, 255, 1), width: 200,
-          child: Column(
-                children: <Widget>[
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('06/05',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<Datacharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: Datacharacter.dia6,
-                      groupValue: _character,
-                      onChanged: (Datacharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('07/05',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<Datacharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: Datacharacter.dia7,
-                      groupValue: _character,
-                      onChanged: (Datacharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('08/05',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<Datacharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: Datacharacter.dia8,
-                      groupValue: _character,
-                      onChanged: (Datacharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                ],
-              ),
-            
-          ),
-          Container(color: const Color.fromRGBO(255, 255, 255, 1), width: 200,
-          child: Column(
-                children: <Widget>[
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('09/05',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<Datacharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: Datacharacter.dia9,
-                      groupValue: _character,
-                      onChanged: (Datacharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('10/05',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<Datacharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: Datacharacter.dia10,
-                      groupValue: _character,
-                      onChanged: (Datacharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('11/05',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<Datacharacter>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: Datacharacter.dia11,
-                      groupValue: _character,
-                      onChanged: (Datacharacter? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                ],
-              ),
-            
-          ),
-      ],
-    )
-    ;
-  }
-}
-class hora extends StatefulWidget {
-  const hora({super.key});
-
-  @override
-  State<hora> createState() => _horaState();
-}
-class _horaState extends State<hora> {
- horas? _character = horas.hora13;
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Container(color: const Color.fromRGBO(255, 255, 255, 1), width: 200,
-          child: Column(
-                children: <Widget>[
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('07:00',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<horas>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: horas.horas7,
-                      groupValue: _character,
-                      onChanged: (horas? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('09:00',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<horas>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: horas.horas9,
-                      groupValue: _character,
-                      onChanged: (horas? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('13:00',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<horas>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: horas.hora13,
-                      groupValue: _character,
-                      onChanged: (horas? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                ],
-              ),
-            
-          ),
-          Container(color: const Color.fromRGBO(255, 255, 255, 1), width: 200,
-          child: Column(
-                children: <Widget>[
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('15:00',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<horas>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: horas.horas15,
-                      groupValue: _character,
-                      onChanged: (horas? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                  ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('18:00',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<horas>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: horas.horas18,
-                      groupValue: _character,
-                      onChanged: (horas? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),ListTile(contentPadding: const EdgeInsets.all(1),iconColor: Colors.black,
-                    title: const Text('20:00',
-                    style: TextStyle(fontSize: 17),),
-                    leading: Radio<horas>(activeColor: const Color.fromRGBO(10, 10, 10, 1),
-                    
-                      value: horas.horas20,
-                      groupValue: _character,
-                      onChanged: (horas? value) {
-                        setState(() {
-                          _character = value;
-                        });
-                      },
-                    ),
-                  ),
-                ],
-              ),
-            
-          ),
-      ],
-    )
-    ;
-  }
-}
-
-class agenda_consulta extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar:  AppBar(
-        backgroundColor: appcolors.azul,
+    return Scaffold(appBar:  AppBar(
+        backgroundColor: Colors.blue,
         toolbarHeight: 90.0,
         title: Padding(
           padding: const EdgeInsets.fromLTRB(0, 0, 90, 0),
@@ -427,7 +31,7 @@ class agenda_consulta extends StatelessWidget {
              [ Container(
                   width:60,
                   height: 300,
-                  color: appcolors.azul,
+                  color: Colors.blue,
                   child:
                    const Padding(
                      padding: EdgeInsets.fromLTRB(0, 0, 90, 0),
@@ -447,7 +51,7 @@ class agenda_consulta extends StatelessWidget {
           ),
         ),
       ),
-      backgroundColor: appcolors.azul,
+      backgroundColor: Colors.blue,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -465,7 +69,7 @@ class agenda_consulta extends StatelessWidget {
                       vertical: 12,
                        ),
               
-                    decoration: BoxDecoration(color: Color(0xFFFAFAFA),
+                    decoration: BoxDecoration(color: const Color(0xFFFAFAFA),
                       borderRadius: BorderRadius.circular(10),
                      border: const Border(
                       bottom: BorderSide(
@@ -484,7 +88,7 @@ class agenda_consulta extends StatelessWidget {
               
               
             ),
-            Container(
+            const SizedBox(
               height: 0,
                 width: 429,
             ),
@@ -508,8 +112,13 @@ class agenda_consulta extends StatelessWidget {
                      )    
                      
                       ),
-                child: const Column(
-                  children: [ Text('Selecione o local',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),RadioExample(),
+                child:    Column(
+                  children: [  const Text('Selecione o local',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                  HospitaisWidget(onSelectHospital: (hospitais) {
+                    setState(() {
+                      _hospitalSelecionado = hospitais;
+                    });
+                  })
                   ],
                 ),
                     
@@ -539,8 +148,15 @@ class agenda_consulta extends StatelessWidget {
                      )    
                      
                       ),
-                child: const Column(
-                  children: [ Text('Selecione a Especialidade',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),Especialidade(),
+                child:  Column(
+                  children: [ const Text('Selecione a Especialidade',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                  EspecialidadeWidget(
+                    onSelectEspecialidade: (especialidade) {
+                      setState(() {
+                        _especialidadeSelecionada = especialidade;
+                      });
+                    },
+                  ),
                   ],
                 ),
                     
@@ -570,8 +186,15 @@ class agenda_consulta extends StatelessWidget {
                      )    
                      
                       ),
-                child: const Column(
-                  children: [ Text('Selecione a data',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),Data(),
+                child:  Column(
+                  children: [ const Text('Selecione a data',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                  DataWidget(
+                    onSelectData: (data) {
+                      setState(() {
+                        _dataSelecionada = data;
+                      });
+                    },
+                  ),
                   ],
                 ),
                     
@@ -600,8 +223,13 @@ class agenda_consulta extends StatelessWidget {
                      )    
                      
                       ),
-                child: const Column(
-                  children: [ Text('Selecione o Horário',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),hora(),
+                child:  Column(
+                  children: [ const Text('Selecione o Horário',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                  HorasWidget(onSelectHora: (horario) {
+                    setState(() {
+                      _horarioSelecionado = horario as Horas?;
+                    });
+                  })
                   ],
                 ),
                 
@@ -612,26 +240,68 @@ class agenda_consulta extends StatelessWidget {
               
           
         ),
-        Row (
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-               ElevatedButton(
-          style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.resolveWith<Color?>((states) {return const Color.fromRGBO(255, 255, 255, 1);},
-            ),),
-          onPressed: (){Navigator.push(context, MaterialPageRoute(
-                builder: (context){return agendamentos();}));}, child: const Text('Agendar',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold, color: Color(0xFF000000)),)),
-              ] 
-              ), const SizedBox(height: 10,)
-        ],
         
-          
+     
+      Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                ElevatedButton(
+                  onPressed: () {
+                    // Captura dos dados selecionados
+                    String? hospitalSelecionado;
+                    String? especialidadeSelecionada;
+                    String? dataSelecionada;
+                    String? horarioSelecionado;
+
+                    // Lógica para capturar os valores selecionados dos RadioButtons
+                    if (_hospitalSelecionado != null) {
+                      hospitalSelecionado = _hospitalSelecionado.toString().split('.').last;
+                    }
+
+                    if (_especialidadeSelecionada != null) {
+                      especialidadeSelecionada = _especialidadeSelecionada.toString().split('.').last;
+                    }
+
+                    if (_dataSelecionada != null) {
+                      dataSelecionada = _dataSelecionada.toString().split('.').last;
+                    }
+
+                    if (_horarioSelecionado != null) {
+                      horarioSelecionado = _horarioSelecionado.toString().split('.').last;
+                    }
+
+                    // Envio dos dados para o Firebase
+                    enviarDadosParaFirebase(
+                      hospital: hospitalSelecionado,
+                      especialidade: especialidadeSelecionada,
+                      data: dataSelecionada,
+                      horario: horarioSelecionado,
+                    );
+
+                    // Navegação para a próxima tela
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const ConsultasAgendadasScreen(),
+                      ),
+                    );
+                  },
+                  child: const Text(
+                    'Agendar',
+                    style: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF000000),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 10),
+          ],
         ),
-        
-        
       ),
-      
-      );
-    
+    );
   }
 }
+

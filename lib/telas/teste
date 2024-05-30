@@ -1,0 +1,71 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'package:repos/telas/emergencia.dart';
+import 'package:repos/telas/tela_inicial.dart';
+
+import 'package:firebase_core/firebase_core.dart';
+import 'consultas_agendadas.dart';
+import 'package:firebase_database/firebase_database.dart';
+class SelecaoFirebase extends StatefulWidget {
+  @override
+  _SelecaoFirebaseState createState() => _SelecaoFirebaseState();
+}
+
+class _SelecaoFirebaseState extends State<SelecaoFirebase> {
+  String? opcaoSelecionada;
+
+  // Lista de opções
+  List<String> opcoes = ['Opção 1', 'Opção 2', 'Opção 3', 'Opção 4'];
+
+  // Método para enviar os dados para o Firebase
+  void enviarParaFirebase(String opcao) {
+    // Código para enviar os dados para o Firebase
+    final databaseReference = FirebaseDatabase.instance.reference();
+    databaseReference.child('dados').set({'opcao': opcao});
+    // Ou qualquer outra operação de envio para o Firebase
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Seleção e Envio para Firebase'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            // Menu suspenso para seleção da opção
+            DropdownButton<String>(
+              value: opcaoSelecionada,
+              icon: const Icon(Icons.arrow_downward),
+              iconSize: 24,
+              elevation: 16,
+              style: const TextStyle(color: Colors.deepPurple),
+              underline: Container(
+                height: 2,
+                color: Colors.deepPurpleAccent,
+              ),
+              onChanged: (String? newValue) {
+                setState(() {
+                  opcaoSelecionada = newValue;
+                  // Ao selecionar uma opção, enviar para o Firebase
+                  enviarParaFirebase(opcaoSelecionada!);
+                });
+              },
+              items: opcoes.map<DropdownMenuItem<String>>((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: Text(value),
+                );
+              }).toList(),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+

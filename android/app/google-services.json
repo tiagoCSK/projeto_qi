@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "381454349421",
+    "firebase_url": "https://projeto-qi-32dbd-default-rtdb.firebaseio.com",
+    "project_id": "projeto-qi-32dbd",
+    "storage_bucket": "projeto-qi-32dbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381454349421:android:b24d349ce3a38736efbb64",
+        "android_client_info": {
+          "package_name": "com.example.repos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDX30SCOqOmPmJAFndVP-PVez0uueb_XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381454349421:android:92cf21ffc9024594efbb64",
+        "android_client_info": {
+          "package_name": "your.package.name"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDX30SCOqOmPmJAFndVP-PVez0uueb_XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

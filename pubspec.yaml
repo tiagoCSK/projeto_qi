@@ -28,6 +28,12 @@ dependencies:
   flutter_mobx: ^2.2.1+1
   mobx: ^2.3.3+2
   mobx_codegen: ^2.6.1
+  responsive_styles: ^2.3.1
+  cloud_firestore: ^4.17.4
+  firebase_auth: ^4.19.6
+  firebase_core: ^2.31.1
+  provider: ^6.1.2
+  firebase_database: ^10.5.6
 
 dev_dependencies:
   flutter_test:
